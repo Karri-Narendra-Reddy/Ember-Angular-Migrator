@@ -1,0 +1,59 @@
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.so
+.installed.cfg
+*.egg-link
+
+# ── Virtual environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env.bak
+
+# ── Credentials — NEVER commit these ───────────────────────────────────────
+.env
+*.key
+*.pem
+secrets.json
+
+# ── Migration runtime artifacts ─────────────────────────────────────────────
+migration_state.json
+migration_report.json
+vector_store/
+logs/
+angular_output/
+
+# ── Backup files created by FileWriter ──────────────────────────────────────
+*.bak
+*.tmp
+
+# ── IDEs ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Angular build output (inside angular_output if you run ng build) ────────
+angular_output/dist/
+angular_output/.angular/
+angular_output/node_modules/
